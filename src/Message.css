@@ -1,0 +1,56 @@
+/* Container for messages */
+.message-container {
+    display: flex;
+    margin: 10px;
+    width: 100%;
+  }
+  
+  .chat-container{
+    background-color: #d5d9c5;
+  }
+  .app-container {
+    background-color:white; /* Set your desired color here */
+    min-height: 100vh; /* Ensure it covers the full height of the viewport */
+    padding: 20px; /* Add some padding */
+  }
+  /* Align user messages to the right */
+  .message-container.right {
+    justify-content: flex-end;
+  }
+  
+  /* Align bot messages to the left */
+  .message-container.left {
+    justify-content: flex-start;
+  }
+  
+  /* Message bubbles for user and bot */
+  .message-bubble {
+    max-width: 60%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    word-wrap: break-word;
+  }
+  
+  /* User message styling */
+  .user-message {
+    background-color: #25D366; /* WhatsApp-like light green */
+    color: #ffffff; /* Text color for user message */
+    border-radius: 20px 20px 0px 20px; /* Rounded corners */
+    text-align: right; /* Align text to the right */
+  }
+  
+  /* Bot message styling */
+  .bot-message {
+    background-color: #dde7dc; /* WhatsApp-like white for bot */
+    color: #000; /* Text color for bot message */
+    border-radius: 20px 20px 20px 0px; /* Rounded corners */
+    text-align: left; /* Align text to the left */
+    border: 1px solid #e0e0e0; /* Light border around bot messages */
+  }
+  
+  /* Add shadow for a more polished look */
+  .message-bubble {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  }
+  

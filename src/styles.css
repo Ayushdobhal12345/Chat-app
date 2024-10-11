@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+  .auth-container form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  
+  .auth-container input {
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+  }
+  
+  .message-list {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+  }
+  
+  .message {
+    margin: 5px 0;
+  }
+  
+  .message-user {
+    text-align: right;
+  }
+  
+  .chat-input {
+    display: flex;
+  }
+  
+  .chat-input input {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .chat-input button {
+    padding: 10px;
+  }
+  

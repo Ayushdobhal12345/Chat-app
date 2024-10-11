@@ -1,0 +1,56 @@
+/* Main chat container */
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+    background-color: #e5ddd5; /* WhatsApp-like background color */
+    font-family: Arial, sans-serif; /* Set a font similar to WhatsApp */
+  }
+  
+  /* Message list (scrollable) */
+  .message-list {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff; /* White background for message area */
+  }
+  
+  /* Chat input at the bottom */
+  .chat-input {
+    display: flex;
+    padding: 10px;
+    background-color: #ffffff;
+    border-top: 1px solid #ccc;
+    align-items: center;
+  }
+  
+  /* Input field styling */
+  .chat-input input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-right: 10px; /* Space between input and send button */
+  }
+  
+  /* Send button styling */
+  .chat-input button {
+    padding: 10px 15px;
+    background-color: #25D366; /* WhatsApp-like green color */
+    color: #ffffff; /* Text color */
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  /* Send button hover effect */
+  .chat-input button:hover {
+    background-color: #128C7E; /* Darker green on hover */
+  }
+  

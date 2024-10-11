@@ -1,0 +1,61 @@
+/* Auth.css */
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin: auto;
+  }
+  
+  .auth-container form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .auth-container input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .auth-container button {
+    padding: 10px;
+    background-color: #25d366; /* WhatsApp green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .auth-container button:hover {
+    background-color: #128c7e; /* Darker WhatsApp green */
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+  }
+  
+  .success-message {
+    color: green;
+    font-size: 14px;
+  }
+  
+  .register-link, .login-link {
+    color: #25d366;
+    cursor: pointer;
+  }
+  
+  .success {
+    animation: success-animation 0.5s ease-in-out;
+  }
+  
+  @keyframes success-animation {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+  }
+  
