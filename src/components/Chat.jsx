@@ -41,6 +41,9 @@ const Chat = () => {
 
   return (
     <div className="chat-container">
+    <div style={{backgroundColor:'beige', color:"black", marginTop:"10px", height:"30px",display:"flex" ,alignItems:"center",fontFamily:"sans-serif",fontSize:"20px"}}>Welcome to AI Chat Box...</div>
+    <br></br>
+    <hr></hr>
       <div className="message-list">
         {messages.map((msg, index) => (
           <Message key={index} user={msg.user} content={msg.content} />

@@ -5,6 +5,7 @@ import Chat from './components/Chat';
 import './styles.css';
 import './Message.css'; 
 import './Auth.css'; 
+// import './Chat.css';
 
 
 const App = () => {

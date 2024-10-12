@@ -29,7 +29,7 @@ const Register = ({ onRegister, onSwitchToLogin }) => {
   return (
     <div className="auth-container">
       <form onSubmit={handleSubmit}>
-        <h2>Register</h2>
+        <center><h2>Register</h2></center>
         <input
           type="text"
           placeholder="Username"

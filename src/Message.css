@@ -38,6 +38,7 @@
     color: #ffffff; /* Text color for user message */
     border-radius: 20px 20px 0px 20px; /* Rounded corners */
     text-align: right; /* Align text to the right */
+    font-size: 20px;
   }
   
   /* Bot message styling */
@@ -47,6 +48,8 @@
     border-radius: 20px 20px 20px 0px; /* Rounded corners */
     text-align: left; /* Align text to the left */
     border: 1px solid #e0e0e0; /* Light border around bot messages */
+    font-size: 20px;
+
   }
   
   /* Add shadow for a more polished look */

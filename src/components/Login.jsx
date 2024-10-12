@@ -27,7 +27,7 @@ const Login = ({ onLogin, onSwitchToRegister }) => {
   return (
     <div className="auth-container">
       <form onSubmit={handleSubmit} className={isLoggedIn ? 'success' : ''}>
-        <h2>Login</h2>
+       <center> <h2>Login</h2></center>
         <input
           type="text"
           placeholder="Username"
