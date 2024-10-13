@@ -4,7 +4,7 @@ import Message from './Message';
 import Anthropic from '@anthropic-ai/sdk';
 
 const anthropic = new Anthropic({
-  apiKey: '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',
+  apiKey: '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',
   dangerouslyAllowBrowser: true,
 });
 
