@@ -5,11 +5,7 @@ import Anthropic from '@anthropic-ai/sdk';
 
 // Use environment variable for API key
 const anthropic = new Anthropic({
-<<<<<<< HEAD
   apiKey: import.meta.env.VITE_ANTHROPIC_API_KEY,
-=======
-  apiKey: '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',
->>>>>>> 8798b7f62f1699f9a4d160bd42c5d729914a542c
   dangerouslyAllowBrowser: true,
 });
 
